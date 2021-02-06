@@ -17,5 +17,6 @@ function isInclusDansLaPeriode ($Debutabsence,$Finabsence)
 isInclusDansLaPeriode("2021-01-01","2021-01-23");
 isInclusDansLaPeriode("2021-02-01","2021-02-23");
 isInclusDansLaPeriode("2021-01-01","2021-03-23");
+isInclusDansLaPeriode("2021-02-01","2021-03-23");
 }
 ?>
