@@ -4,12 +4,12 @@ function isInclusDansLaPeriode ($Debutabsence,$Finabsence)
 {
    if (($Debutabsence >= "2021-02-01" && $Debutabsence <= "2021-02-28") || ($Finabsence <= "2021-02-28" && $Finabsence >= "2021-02-01") || ($Debutabsence < "2021-02-01" && $Finabsence > "2021-02-28"))
    {
-      echo "Tout ou partie de l'asbsence doit être compatabilisée sur le bulletin de paie";
+      echo "Tout ou partie de l'asbsence doit être compatabilisée sur le bulletin de paie\n";
       return true;
    }
    else
    {
-       echo "L'absence ne doit pas être compatabilisée sur le bulletin de paie";
+       echo "L'absence ne doit pas être compatabilisée sur le bulletin de paie\n";
        return false;
    }
 }
